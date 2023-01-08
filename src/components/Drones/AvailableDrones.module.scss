@@ -1,0 +1,33 @@
+.drones {
+    max-width: 60rem;
+    width: 90%;
+    margin: 2rem auto;
+    animation: drones-appear 1s ease-out forwards;
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+  }
+  
+   .loading {
+       text-align: center;
+       
+   }
+
+   .loadingError {
+       text-align: center;
+       color: red;
+   }
+  
+  @keyframes drones-appear {
+    from {
+      opacity: 0;
+      transform: translateY(3rem);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
